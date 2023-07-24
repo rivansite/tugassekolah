@@ -1,0 +1,55 @@
+# Your Discord bot token (Found at https://discord.com/developers/applications)
+botToken: "MTEzMjcyMjAxNjc4OTcyOTM2Mw.G2wT7v.fKg9HrKtxFNJjqQkRQq_j7aU4kLy_dPkGW7M9I"
+
+# Your Discord bot client ID
+clientId: "1132722016789729363"
+
+# Your Genius API client access token (Found at https://genius.com/developers)
+geniusApiKey: "K-vB3shzDSrpurEWRbQPiiBm2hWiSFk-EOYyfq_4tr7uh2bL2-9Nbu33Pi3lzQlJ"
+
+# The colour to use for embeds sent by the bot
+embedColour: "#2B2D31"
+
+# Whether analytics should be sent when starting the bot
+# See https://github.com/NerdyTechy/Melody/wiki/Analytics
+enableAnalytics: true
+
+# Whether the bot should autocomplete search results
+# Disable this if you're experiencing Unknown Interaction errors
+enableAutocomplete: true
+
+# Settings to control the bot's player and controller
+player:
+    # Leave VC when a song ends
+    leaveOnEndDelay: 300000 # 5 minutes
+    # Leave VC when a song is stopped
+    leaveOnStopDelay: 300000 # 5 minutes
+    # Leave VC when the channel is empty
+    leaveOnEmptyDelay: 300000 # 5 minutes
+    # Deafen bot while playing
+    deafenBot: false
+
+# The emojis to be used in buttons for certain embeds
+# See https://github.com/NerdyTechy/Melody/wiki/Using-Custom-Emojis
+emojis:
+    stop: "⏹"
+    skip: "⏭"
+    queue: "📜"
+    pause: "⏯"
+    lyrics: "📜"
+    back: "⏮"
+
+# Make Melody use a proxy when making requests.
+# Useful if you're experiencing 429 errors.
+# See https://github.com/NerdyTechy/Melody/wiki/Proxying-Requests
+# Omit user:pass@ if your proxy does not require authentication.
+proxy:
+    enable: false
+    connectionUrl: "http://user:pass@111.111.111.111:8080"
+
+# Make Melody use a custom YouTube cookie when making requests.
+# This can help to prevent against receiving 429 rate limits from YouTube.
+# See https://github.com/NerdyTechy/Melody/wiki/YouTube-Cookies
+cookies:
+    useCustomCookie: false
+    youtubeCookie: ""
